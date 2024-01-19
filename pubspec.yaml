@@ -1,0 +1,67 @@
+name: T_store
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+
+  # Utility Packages
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+  flutter_native_splash: ^2.3.1
+  smooth_page_indicator: ^1.1.0
+
+  #State Management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+  # Product Specific
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/images/
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+      - asset: assets/fonts/Poppins-Bold.ttf
+        weight: 300
+      - asset: assets/fonts/Poppins-BoldItalic.ttf
+        weight: 400
+      - asset: assets/fonts/Poppins-Italic.ttf
+        style: italic
+      - asset: assets/fonts/Poppins-Light.ttf
+        weight: 500
+      - asset: assets/fonts/Poppins-Medium.ttf
+        weight: 300
+      - asset: assets/fonts/Poppins-MediumItalic.ttf
+        weight: 300
+        style: italic
+      - asset: assets/fonts/Poppins-SemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
+
